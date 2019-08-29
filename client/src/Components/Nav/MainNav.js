@@ -5,7 +5,7 @@ import "./Navtabs.css"
 
 function MainNav() {
   return (
-    <ul className="nav grad">
+    <ul className="navbar">
       <li className="nav-brand">
         <Link to="/" className={window.location.pathname === "/" ? "nav-link active" : "nav-link"}>
           Health Project
