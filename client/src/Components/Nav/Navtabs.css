@@ -1,5 +1,7 @@
 
-.nav-link {
+.nav {
+    background: rgba(97, 97, 97, 0.071); 
+}.nav-link {
     color: #000000;
 
 }

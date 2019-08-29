@@ -1,14 +1,14 @@
 .border-input {
     margin-top: 100px;
     border: solid 1px;
-    background-color: #31e0c65b;
+    background-color: #d8d5b95b;
     padding: 30px 30px 60px 30px;
     width: 500px;
 }
 
 .btn {
     border-radius: 16px;
-    background-color: #ffffff;
+    background-color: #ffffff !important;
     float: right;
 
 }

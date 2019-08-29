@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import './Menu.css'
-import GetStartedButton from "./GetStartedButton"
+// import GetStartedButton from "./GetStartedButton"
 
 
 const menu = (props) => {
