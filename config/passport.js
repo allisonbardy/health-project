@@ -1,6 +1,6 @@
  //load bcrypt
  var bCrypt = require('bcrypt-nodejs');
- const User = require("../../Project3/models").User;
+ const User = require("../../Health-Project/models").User;
  var passport = require('passport')
 
  var LocalStrategy = require('passport-local').Strategy;

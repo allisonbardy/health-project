@@ -1,3 +1,3 @@
-DROP DATABASE IF EXISTS project3db;
+DROP DATABASE IF EXISTS healthprojectdb;
 
-CREATE DATABASE project3db;
+CREATE DATABASE healthprojectdb;
