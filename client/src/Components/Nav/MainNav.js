@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Signin from "../SignIn/userSignIn"
+import {SubmitButton, Input, SignIn} from "../SignIn/index"
 
 import "./Navtabs.css"
 
@@ -12,12 +14,8 @@ function MainNav() {
         </Link>
       </li>
       <li className="nav-item ml-auto">
-        <Link
-          to="/signin"
-          className={window.location.pathname === "/signin" ? "nav-link active" : "nav-link"}
-        >
-          Sign In
-        </Link>
+       <Signin/>
+
       </li>
     </ul>
   );
