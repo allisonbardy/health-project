@@ -120,7 +120,9 @@ app.get("/api/currentUser", function(req, res){
   })
 })
 
-
+app.get("/", function(req, res){
+  res.send("hi")
+})
 
 // app.get("*", function(req, res) {
  app.get("*", function(req, res) {

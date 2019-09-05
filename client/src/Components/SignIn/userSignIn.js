@@ -46,27 +46,25 @@ class SignIn extends Component {
     render(){
 
         return(
-
-            <div className="container">
-                <div className="border-input container">
-                    <p className="text-center">Sign In!</p>
-                    Email Address
+                <form className="form-inline">
+            {/* // <div className="container">
+            //     <div className="border-input container"> */}
                     <Input
                         name="email"
-                        // placeholder="Email"
+                        placeholder="Email"
                         onChange={this.handleInputChange} 
                     />
-                    Password
                     <Input
                         name="password"
-                        // placeholder="password"
+                        placeholder="password"
                         onChange={this.handleInputChange}
                         type="password"
                     />
                     <SubmitButton
                         onClick={this.handleFormSubmit} />
-                </div>
-            </div>
+            {/* //      </div>
+            // </div> */}
+            </form>
         )
     }
 }
